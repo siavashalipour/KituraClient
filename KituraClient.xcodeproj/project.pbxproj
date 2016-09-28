@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F06F6D081D98C41100E1519A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F6D071D98C41100E1519A /* AppDelegate.swift */; };
+		F06F6D0A1D98C41100E1519A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06F6D091D98C41100E1519A /* ViewController.swift */; };
+		F06F6D0D1D98C41100E1519A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06F6D0B1D98C41100E1519A /* Main.storyboard */; };
+		F06F6D0F1D98C41100E1519A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06F6D0E1D98C41100E1519A /* Assets.xcassets */; };
+		F06F6D121D98C41100E1519A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06F6D101D98C41100E1519A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F06F6D041D98C41100E1519A /* KituraClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KituraClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06F6D071D98C41100E1519A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06F6D091D98C41100E1519A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F06F6D0C1D98C41100E1519A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06F6D0E1D98C41100E1519A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06F6D111D98C41100E1519A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06F6D131D98C41100E1519A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06F6D011D98C41100E1519A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F06F6CFB1D98C41100E1519A = {
+			isa = PBXGroup;
+			children = (
+				F06F6D061D98C41100E1519A /* KituraClient */,
+				F06F6D051D98C41100E1519A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06F6D051D98C41100E1519A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06F6D041D98C41100E1519A /* KituraClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06F6D061D98C41100E1519A /* KituraClient */ = {
+			isa = PBXGroup;
+			children = (
+				F06F6D071D98C41100E1519A /* AppDelegate.swift */,
+				F06F6D091D98C41100E1519A /* ViewController.swift */,
+				F06F6D0B1D98C41100E1519A /* Main.storyboard */,
+				F06F6D0E1D98C41100E1519A /* Assets.xcassets */,
+				F06F6D101D98C41100E1519A /* LaunchScreen.storyboard */,
+				F06F6D131D98C41100E1519A /* Info.plist */,
+			);
+			path = KituraClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06F6D031D98C41100E1519A /* KituraClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06F6D161D98C41100E1519A /* Build configuration list for PBXNativeTarget "KituraClient" */;
+			buildPhases = (
+				F06F6D001D98C41100E1519A /* Sources */,
+				F06F6D011D98C41100E1519A /* Frameworks */,
+				F06F6D021D98C41100E1519A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KituraClient;
+			productName = KituraClient;
+			productReference = F06F6D041D98C41100E1519A /* KituraClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06F6CFC1D98C41100E1519A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MobileDen;
+				TargetAttributes = {
+					F06F6D031D98C41100E1519A = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 33GWFDB497;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F06F6CFF1D98C41100E1519A /* Build configuration list for PBXProject "KituraClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06F6CFB1D98C41100E1519A;
+			productRefGroup = F06F6D051D98C41100E1519A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06F6D031D98C41100E1519A /* KituraClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06F6D021D98C41100E1519A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06F6D121D98C41100E1519A /* LaunchScreen.storyboard in Resources */,
+				F06F6D0F1D98C41100E1519A /* Assets.xcassets in Resources */,
+				F06F6D0D1D98C41100E1519A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06F6D001D98C41100E1519A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06F6D0A1D98C41100E1519A /* ViewController.swift in Sources */,
+				F06F6D081D98C41100E1519A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06F6D0B1D98C41100E1519A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06F6D0C1D98C41100E1519A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06F6D101D98C41100E1519A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06F6D111D98C41100E1519A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06F6D141D98C41100E1519A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F06F6D151D98C41100E1519A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06F6D171D98C41100E1519A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33GWFDB497;
+				INFOPLIST_FILE = KituraClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.MobileDen.KituraClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F06F6D181D98C41100E1519A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33GWFDB497;
+				INFOPLIST_FILE = KituraClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.MobileDen.KituraClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06F6CFF1D98C41100E1519A /* Build configuration list for PBXProject "KituraClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06F6D141D98C41100E1519A /* Debug */,
+				F06F6D151D98C41100E1519A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06F6D161D98C41100E1519A /* Build configuration list for PBXNativeTarget "KituraClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06F6D171D98C41100E1519A /* Debug */,
+				F06F6D181D98C41100E1519A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06F6CFC1D98C41100E1519A /* Project object */;
+}
